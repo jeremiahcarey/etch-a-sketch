@@ -69,8 +69,19 @@ body {
     padding: 15px;  
 }
 
-#pixels-down {
+#pixels-up-btn {
+    width: 25px;
+    height: 25px;
+}
+
+#pixels-down-btn {
+    width: 25px;
+    height: 25px;
     margin-left: 18px;
+}
+
+#clear-btn {
+    margin-left: 15px;
 }
 
 #clear {
