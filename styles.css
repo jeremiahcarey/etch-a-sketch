@@ -2,6 +2,7 @@ body {
     background-color: #dae9ff;
     color: #161516;
     box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
 }
 
 #header {
@@ -28,11 +29,12 @@ body {
     height: 558px;
     background-color: #12263b;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 10px;
     display: flex;
 }
 
-#controls {
+.controls {
     width: 196px; 
     height: 550px;
     background-color: #46c1ce;
@@ -63,6 +65,7 @@ body {
 
 #pixels {
     height: 100px;
+    padding: 12px 0px 12px 0px;
 }
 
 #pixels-options {
@@ -80,6 +83,7 @@ body {
     margin-left: 18px;
 }
 
+
 #clear-btn {
     margin-left: 15px;
 }
@@ -88,3 +92,33 @@ body {
     height: 100px;
 }
 
+#paint-options img {
+    height: 18px;
+    width: 18px; 
+}
+
+#black-option,
+#rainbow-option {
+    margin: 3px;
+    padding: 8px;   
+    border-radius: 8px;
+}
+
+#black-option:hover,
+#rainbow-option:hover {
+    box-shadow: #31B37F 0px 0px 0px 3px;
+}
+
+.option-base {
+    background-color: #31A6B3;
+}
+
+.option-selected {
+    background-color: #31B37F;
+}
+
+.controls button {
+    background-color: #31A6B3;
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
